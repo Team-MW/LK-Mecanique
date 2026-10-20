@@ -27,7 +27,7 @@ export default function Footer() {
 
         <p
           aria-hidden
-          className="display mt-16 -mb-[0.12em] px-4 text-center text-[15.5vw] whitespace-nowrap text-white/[0.06]"
+          className="display mt-16 -mb-[0.1em] px-4 text-center text-[9vw] whitespace-nowrap text-white/[0.06]"
         >
           LK Mécanique
         </p>

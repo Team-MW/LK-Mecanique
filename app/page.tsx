@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import Marquee from "@/components/Marquee";
 import Method from "@/components/Method";
+import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Intro />
         <Services />
         <Method />
+        <Reviews />
         <Booking />
         <Contact />
       </main>

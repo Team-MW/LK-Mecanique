@@ -21,8 +21,8 @@ export default function Contact() {
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid gap-3 lg:grid-cols-[1fr_1.5fr]">
-          <div className="grid gap-3">
+        <div className="mt-14 grid grid-cols-1 gap-3 lg:grid-cols-[1fr_1.5fr]">
+          <div className="grid min-w-0 grid-cols-1 gap-3">
             {items.map(({ icon: Icon, label, value, href }) => (
               <a
                 key={label}
@@ -36,7 +36,7 @@ export default function Contact() {
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="block text-sm text-muted group-hover:text-white/70">{label}</span>
-                  <span className="wide block truncate text-lg font-bold">{value}</span>
+                  <span className="wide block truncate text-base font-bold sm:text-lg">{value}</span>
                 </span>
                 <ArrowUpRight className="h-5 w-5 shrink-0 transition-transform group-hover:rotate-45" />
               </a>

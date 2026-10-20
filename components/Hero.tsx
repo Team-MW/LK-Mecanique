@@ -29,7 +29,7 @@ export default function Hero() {
             ))}
           </div>
 
-          <h1 className="display mt-6 text-[13vw] sm:text-[11vw] lg:text-[8.6vw]">
+          <h1 className="display mt-6 text-[10.6vw] lg:text-[8.6vw]">
             Mécanique
             <br />
             <span className="text-white/40">sans</span> surprise<span className="text-brand">.</span>
